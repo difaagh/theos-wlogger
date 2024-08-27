@@ -16,7 +16,7 @@ or `make package THEOS_PACKAGE_SCHEME=roothide` or `make package THEOS_PACKAGE_S
 
 ```objc
 #import <roothide.h>
-#import <WLogger.h>
+#import <WLogger/WLogger.h>
 .....
 WLogger *logger = [[WLogger alloc] initWithLogFilePath:jbroot(@"/path/to/your/logfile.log")]];
 [logger writeLog:@"Hello World!"];
