@@ -1,0 +1,9 @@
+Package: com.difaagh.wlogger
+Name: WLogger
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: write log to file
+Maintainer: difaagh
+Author: difaagh
+Section: System
+Tag: role::developer
